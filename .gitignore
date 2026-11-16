@@ -1,0 +1,5 @@
+data/
+node_modules/
+
+# local editor / agent settings
+.claude/

@@ -1,0 +1,17 @@
+{
+  "v": 4,
+  "createdOnFiles": { "v": 1, "at": "2026-11-10T11:00:00Z" },
+  "lists": "css",
+  "title": "LaoRum ERP: ການນຳສະເໜີ",
+  "order": ["cover", "why", "flow", "modules", "recipe", "rules", "buying", "tested", "roadmap", "next"],
+  "sections": {
+    "s1": { "description": "ຊື່ໂຄງການ ແລະ ເປົ້າໝາຍ: ຕົວເລກສາມຢ່າງທີ່ຕ້ອງເຊື່ອຖືໄດ້", "start": "cover" },
+    "s2": { "description": "ລະບົບເຮັດວຽກແນວໃດ: ໂມດູນ, ສູດ ແລະ ກົດເກນສະຕັອກ", "start": "flow" },
+    "s3": { "description": "ການຈັດຊື້ ແລະ ຜົນການທົດສອບ", "start": "buying" },
+    "s4": { "description": "ແຜນງານ ແລະ ບາດກ້າວຕໍ່ໄປ", "start": "roadmap" }
+  },
+  "faces": {
+    "phetsarathot": { "family": "PhetsarathOT", "src": "/_blob/73c6e4bea69b3f417232d17670062b68" },
+    "phetsarathot-bold": { "family": "PhetsarathOT Bold", "src": "/_blob/55467947bc1cf764397007ee92cea47b" }
+  }
+}

@@ -1,0 +1,50 @@
+export const STR = {
+  en: {
+    app: 'LaoRum ERP', home: 'Home', pos: 'POS', menu: 'Menu & recipes', stock: 'Inventory', buy: 'Purchasing',
+    currency: 'LAK', save: 'Save', cancel: 'Cancel', close: 'Close', edit: 'Edit', add: 'Add', remove: 'Remove', search: 'Search', none: 'Nothing here yet',
+    name: 'Name', name_lo: 'Lao name', price: 'Price', category: 'Category', active: 'On menu', qty: 'Quantity', note: 'Reason / note', phone: 'Phone',
+    // home
+    today_sales: "Today's sales", orders: 'Orders', avg_order: 'Average order', food_cost: 'Food cost', open_orders: 'Open orders', refunds: 'Refunds today',
+    by_method: 'Payments by method', low_stock: 'Low stock', all_good: 'All ingredients are above minimum', best_sellers: 'Best sellers today',
+    exports: 'Export to Excel (CSV)', ex_sales: 'Sales', ex_stock: 'Stock', ex_moves: 'Stock movements', ex_purchases: 'Purchases',
+    backup: 'Back up data now', backup_done: 'Backup saved', data_safety: 'Data safety',
+    // pos
+    open_order_list: 'Open orders', new_order: 'New order', table: 'Table', order_type: 'Order type', dine_in: 'Dine-in', takeaway: 'Takeaway', delivery: 'Delivery',
+    order_empty: 'Tap a menu item to add it', subtotal: 'Subtotal', discount: 'Discount', total: 'Total', save_order: 'Save order', pay: 'Pay', pay_with: 'Pay with',
+    cash: 'Cash', card: 'Card', qr: 'QR', void_order: 'Void order', recent_orders: 'Recent orders', receipt: 'Receipt', refund: 'Refund', confirm_void: 'Void this order?', confirm_refund: 'Refund this order? Stock is not returned; record waste if food was thrown away.',
+    paid: 'Paid', open: 'Open', void: 'Void', refunded: 'Refunded', order_no: 'Order', thanks: 'Thank you', loading_order: 'Order loaded', need_table: 'Enter the table number',
+    // menu
+    add_item: 'Add menu item', recipe: 'Recipe', recipe_cost: 'Recipe cost', food_cost_pct: 'Food cost %', margin: 'Margin', add_ingredient_line: 'Add ingredient', no_recipe: 'No recipe', per_portion: 'per portion', pick: 'Choose…',
+    // stock
+    on_hand: 'On hand', minimum: 'Minimum', unit: 'Stock unit', sub_unit: 'Recipe unit', factor: 'Recipe units in 1 stock unit', unit_cost: 'Cost per stock unit', opening: 'Opening stock', status: 'Status',
+    low: 'Low', ok: 'OK', waste: 'Waste', staff: 'Staff meal', count: 'Count', adjust: 'Adjust', history: 'History', add_ingredient: 'Add ingredient', counted: 'Counted quantity', system_stock: 'System stock', variance: 'Variance',
+    adjust_hint: 'Use + to add or - to remove', receive: 'Delivery', sale: 'Sale', type: 'Type', when: 'When',
+    // buy
+    suppliers: 'Suppliers', add_supplier: 'Add supplier', purchase_orders: 'Purchase orders', new_po: 'New purchase order', supplier: 'Supplier', draft: 'Draft', approved: 'Approved', received: 'Received', cancelled: 'Cancelled',
+    approve: 'Approve', receive_goods: 'Receive goods', invoice_no: 'Invoice number', line_total: 'Line total', add_line: 'Add line', unit_cost_short: 'Unit cost', ordered: 'Ordered', received_qty: 'Received',
+    confirm_cancel: 'Cancel this purchase order?', need_supplier: 'Add a supplier first',
+    saved: 'Saved', lang: 'ລາວ', error: 'Something went wrong',
+  },
+  lo: {
+    app: 'LaoRum ERP', home: 'ໜ້າຫຼັກ', pos: 'POS', menu: 'ເມນູ ແລະ ສູດອາຫານ', stock: 'ສາງ', buy: 'ການຈັດຊື້',
+    currency: 'ກີບ', save: 'ບັນທຶກ', cancel: 'ຍົກເລີກ', close: 'ປິດ', edit: 'ແກ້ໄຂ', add: 'ເພີ່ມ', remove: 'ລຶບ', search: 'ຄົ້ນຫາ', none: 'ຍັງບໍ່ມີຂໍ້ມູນ',
+    name: 'ຊື່', name_lo: 'ຊື່ພາສາລາວ', price: 'ລາຄາ', category: 'ໝວດ', active: 'ມີໃນເມນູ', qty: 'ຈຳນວນ', note: 'ເຫດຜົນ / ໝາຍເຫດ', phone: 'ເບີໂທ',
+    today_sales: 'ຍອດຂາຍມື້ນີ້', orders: 'ຈຳນວນອໍເດີ', avg_order: 'ມູນຄ່າອໍເດີສະເລ່ຍ', food_cost: 'ຕົ້ນທຶນອາຫານ', open_orders: 'ອໍເດີຄ້າງ', refunds: 'ຄືນເງິນມື້ນີ້',
+    by_method: 'ການຊຳລະແຍກຕາມວິທີ', low_stock: 'ສະຕັອກຕ່ຳ', all_good: 'ວັດຖຸດິບທຸກຢ່າງສູງກວ່າຂັ້ນຕ່ຳ', best_sellers: 'ເມນູຂາຍດີມື້ນີ້',
+    exports: 'ສົ່ງອອກເປັນ Excel (CSV)', ex_sales: 'ການຂາຍ', ex_stock: 'ສະຕັອກ', ex_moves: 'ການເຄື່ອນໄຫວສະຕັອກ', ex_purchases: 'ການຈັດຊື້',
+    backup: 'ສຳຮອງຂໍ້ມູນດຽວນີ້', backup_done: 'ສຳຮອງຂໍ້ມູນແລ້ວ', data_safety: 'ຄວາມປອດໄພຂອງຂໍ້ມູນ',
+    open_order_list: 'ອໍເດີທີ່ເປີດຢູ່', new_order: 'ອໍເດີໃໝ່', table: 'ໂຕະ', order_type: 'ປະເພດອໍເດີ', dine_in: 'ກິນທີ່ຮ້ານ', takeaway: 'ກັບບ້ານ', delivery: 'ສົ່ງເຖິງບ້ານ',
+    order_empty: 'ກົດເມນູເພື່ອເພີ່ມລາຍການ', subtotal: 'ລວມຍ່ອຍ', discount: 'ສ່ວນຫຼຸດ', total: 'ລວມທັງໝົດ', save_order: 'ບັນທຶກອໍເດີ', pay: 'ຊຳລະ', pay_with: 'ຊຳລະດ້ວຍ',
+    cash: 'ເງິນສົດ', card: 'ບັດ', qr: 'QR', void_order: 'ຍົກເລີກອໍເດີ', recent_orders: 'ອໍເດີຫຼ້າສຸດ', receipt: 'ໃບເສັດ', refund: 'ຄືນເງິນ',
+    confirm_void: 'ຍົກເລີກອໍເດີນີ້ບໍ?', confirm_refund: 'ຄືນເງິນອໍເດີນີ້ບໍ? ສະຕັອກຈະບໍ່ຖືກສົ່ງຄືນ; ຖ້າອາຫານຖືກຖິ້ມ ໃຫ້ບັນທຶກເປັນຂອງເສຍ.',
+    paid: 'ຈ່າຍແລ້ວ', open: 'ເປີດຢູ່', void: 'ຍົກເລີກ', refunded: 'ຄືນເງິນແລ້ວ', order_no: 'ອໍເດີ', thanks: 'ຂອບໃຈ', loading_order: 'ໂຫຼດອໍເດີແລ້ວ', need_table: 'ໃສ່ເລກໂຕະ',
+    add_item: 'ເພີ່ມເມນູ', recipe: 'ສູດອາຫານ', recipe_cost: 'ຕົ້ນທຶນສູດ', food_cost_pct: 'ຕົ້ນທຶນອາຫານ %', margin: 'ສ່ວນຕ່າງ', add_ingredient_line: 'ເພີ່ມວັດຖຸດິບ', no_recipe: 'ຍັງບໍ່ມີສູດ', per_portion: 'ຕໍ່ຈານ', pick: 'ເລືອກ…',
+    on_hand: 'ຄົງເຫຼືອ', minimum: 'ຂັ້ນຕ່ຳ', unit: 'ໜ່ວຍສາງ', sub_unit: 'ໜ່ວຍໃນສູດ', factor: 'ຈຳນວນໜ່ວຍສູດໃນ 1 ໜ່ວຍສາງ', unit_cost: 'ຕົ້ນທຶນຕໍ່ໜ່ວຍສາງ', opening: 'ສະຕັອກຕົ້ນງວດ', status: 'ສະຖານະ',
+    low: 'ຕ່ຳ', ok: 'ປົກກະຕິ', waste: 'ຂອງເສຍ', staff: 'ອາຫານພະນັກງານ', count: 'ນັບສະຕັອກ', adjust: 'ປັບຍອດ', history: 'ປະຫວັດ', add_ingredient: 'ເພີ່ມວັດຖຸດິບ', counted: 'ຈຳນວນທີ່ນັບໄດ້', system_stock: 'ສະຕັອກຕາມລະບົບ', variance: 'ຄວາມຕ່າງ',
+    adjust_hint: 'ໃຊ້ + ເພື່ອເພີ່ມ ຫຼື - ເພື່ອຫຼຸດ', receive: 'ຮັບເຂົ້າ', sale: 'ຂາຍ', type: 'ປະເພດ', when: 'ເວລາ',
+    suppliers: 'ຜູ້ສະໜອງ', add_supplier: 'ເພີ່ມຜູ້ສະໜອງ', purchase_orders: 'ໃບສັ່ງຊື້', new_po: 'ໃບສັ່ງຊື້ໃໝ່', supplier: 'ຜູ້ສະໜອງ', draft: 'ຮ່າງ', approved: 'ອະນຸມັດແລ້ວ', received: 'ຮັບແລ້ວ', cancelled: 'ຍົກເລີກແລ້ວ',
+    approve: 'ອະນຸມັດ', receive_goods: 'ຮັບສິນຄ້າ', invoice_no: 'ເລກໃບແຈ້ງໜີ້', line_total: 'ລວມລາຍການ', add_line: 'ເພີ່ມລາຍການ', unit_cost_short: 'ຕົ້ນທຶນ/ໜ່ວຍ', ordered: 'ສັ່ງ', received_qty: 'ຮັບ',
+    confirm_cancel: 'ຍົກເລີກໃບສັ່ງຊື້ນີ້ບໍ?', need_supplier: 'ກະລຸນາເພີ່ມຜູ້ສະໜອງກ່ອນ',
+    saved: 'ບັນທຶກແລ້ວ', lang: 'EN', error: 'ເກີດຂໍ້ຜິດພາດ',
+  },
+};
